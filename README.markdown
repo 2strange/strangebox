@@ -1,7 +1,8 @@
-# my Version of Gem in a Box (I just put it in another dress)
+# GemInABox in another dress
 
-..original by:
-Tom Lea (cwninja) .. https://github.com/cwninja/geminabox
+my Version of Gem in a Box (I just put it in another dress)
+
+	..original by:   Tom Lea (cwninja) .. https://github.com/cwninja/geminabox
 
 
 ## Really simple rubygem hosting
@@ -45,6 +46,8 @@ And finally, hook up the config.ru.
 Simples!
 
 ## Licence
+
+	..original by:   Tom Lea (cwninja) .. https://github.com/cwninja/geminabox
 
 Fork it, mod it, choose it, use it, make it better. All under the [do what the fuck you want to + beer/pizza public license][WTFBPPL].
 
