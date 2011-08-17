@@ -9,7 +9,7 @@
 
     <% @gems.each do |name, versions| %>
       <li <%= %{id="jump_#{name[0..0]}"} if @index_gems.delete(name[0..0]) %>>
-        <h2 class="trigger"><%= name %> (<%= versions.size == 1 ? versions.first : "#{versions.first} - #{versions.last}" %>) <%= ' *' if versions.count > 1 %></h2>
+        <h2 class="trigger"><%= name %> &nbsp; <span class="version_number">[ <%= versions.size == 1 ? versions.first : "#{versions.last}" %> ]</span> <%= ' *' if versions.count > 1 %></h2>
 		<div class="extra_info hidden">
 			<% versions.each do |version| %>
 
