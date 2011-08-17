@@ -1,3 +1,6 @@
 module Strangebox
-  VERSION = "0.0.1"
+  VERSION = '0.0.1'
+  def self.version
+    VERSION
+  end
 end
