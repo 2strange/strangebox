@@ -2,7 +2,7 @@
 
 my Version of Gem in a Box (I just put it in another dress)
 
-	..original by:   Tom Lea (cwninja) .. https://github.com/cwninja/geminabox
+..original by:   Tom Lea (cwninja) .. [geminabox][geminabox]
 
 
 ## Really simple rubygem hosting
@@ -47,9 +47,13 @@ Simples!
 
 ## Licence
 
-	..original by:   Tom Lea (cwninja) .. https://github.com/cwninja/geminabox
+..original by:   Tom Lea (cwninja) .. [geminabox][geminabox]
 
 Fork it, mod it, choose it, use it, make it better. All under the [do what the fuck you want to + beer/pizza public license][WTFBPPL].
 
-[WTFBPPL]: http://tomlea.co.uk/WTFBPPL.txt
+.. so pizza & beer goes to [cwninja][cwninja]
 
+[WTFBPPL]: http://tomlea.co.uk/WTFBPPL.txt
+[sinatra]: http://www.sinatrarb.com/
+[geminabox]: https://github.com/cwninja/geminabox
+[cwninja]: https://github.com/cwninja
