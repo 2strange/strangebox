@@ -17,7 +17,7 @@ Create a config.ru as follows:
     require "rubygems"
 	require "strangebox"
 
-	Strangebox.data = "~/dev" # …or wherever
+	Strangebox.data = "~/dev" # ... your Gem-folder
 
 	#	If you need authentication:
 	#	use Rack::Auth::Basic, "StrangeBox" do |username, password|
@@ -38,7 +38,10 @@ And finally, hook up the config.ru.
 
 	$ gem sbox ./secretgem-0.0.1.gem
 
-	$ gem sources -a http://localhost:9292/   ... or wherever
+	$ gem sources -a http://localhost:9292/   ... your Host
+
+	$ gem sources -a http://your_name:your_password@localhost:9292/   ... your Host with username & password
+
 Simples!
 
 ## Licence
