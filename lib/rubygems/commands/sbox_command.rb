@@ -3,11 +3,13 @@ require 'yaml'
 
 class Gem::Commands::SboxCommand < Gem::Command
   def description
-    'Push a gem up to your StrangeBox'
+    'Push a gem up to your StrangeBox:
+    $ gem build secretgem.gemspec      ...  build your Gem
+    $ gem sbox ./secretgem-0.0.1.gem   ...  push Gem to StrangeBox'
   end
 
   def arguments
-    "GEM       built gem to push up"
+    "GEM ... built gem to push up"
   end
 
   def usage
@@ -15,7 +17,7 @@ class Gem::Commands::SboxCommand < Gem::Command
   end
 
   def initialize
-    super 'inabox', description
+    super 'sbox', description
 
     add_option('-c', '--configure', "Configure StrangeBox") do |value, options|
       options[:configure] = true

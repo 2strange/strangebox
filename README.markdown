@@ -15,9 +15,16 @@ It has no security, or authentication so you should handle this yourself.
 Create a config.ru as follows:
 
     require "rubygems"
-    require "strangebox"
-    Strangebox.data = "/Users/You/data" # ... or wherever
-    run Strangebox
+	require "strangebox"
+
+	Strangebox.data = "~/dev" # …or wherever
+
+	#	If you need authentication:
+	#	use Rack::Auth::Basic, "StrangeBox" do |username, password|
+	#		[username, password] == ['your_name', 'your_password']
+	#	end
+
+	run Strangebox
 
 And finally, hook up the config.ru.
 
