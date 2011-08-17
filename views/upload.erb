@@ -1,5 +1,14 @@
-<%= @error %>
-<form method="POST" enctype="multipart/form-data"> 
-  <input type="file" name="file">
-  <input type="submit" value="Upload">
-</form> 
+<div id="upload_box">
+	<%= @error %>
+	<form method="POST" enctype="multipart/form-data"> 
+		<h2>Upload A new Gem</h2>
+		<br/>
+		<input type="file" name="file">
+		<br/><br/><br/>
+		<div class="clearfix"></div>
+		<input type="submit" value="Upload" class="big_button">
+		<div class="clearfix"></div>
+		<br/>
+	</form> 
+	
+</div>
