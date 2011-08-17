@@ -4,8 +4,8 @@ require 'yaml'
 class Gem::Commands::SboxCommand < Gem::Command
   def description
     'Push a gem up to your StrangeBox:
-    $ gem build secretgem.gemspec      ...  build your Gem
-    $ gem sbox ./secretgem-0.0.1.gem   ...  push Gem to StrangeBox'
+$ gem build secretgem.gemspec      ...  build your Gem
+$ gem sbox ./secretgem-0.0.1.gem   ...  push Gem to StrangeBox'
   end
 
   def arguments
