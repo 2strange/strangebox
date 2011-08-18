@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "strangebox"
 
-  s.files             = %w[README.markdown] + Dir['views/**/*', 'lib/**/*', 'public/**/*']
+  s.files             = %w[README.markdown] + Dir['views/**/*', 'lib/**/*', 'public/**/*', 'data/**/*']
   s.require_paths     = ['lib']
   
   s.add_dependency('sinatra')

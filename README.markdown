@@ -12,7 +12,7 @@ Gem in a box is a simple [sinatra][sinatra] app to allow you to host your own in
 It has no security, or authentication so you should handle this yourself.
 
 ## Server Setup
-    gem install geminabox
+    gem install strangebox
 Create a config.ru as follows:
 
     require "rubygems"
